@@ -17,7 +17,7 @@ contract tc_arb {
                   int8 status;              // 1- en camino 2- llego al pais 3- esta en la aduana 4- entregado
                   address wallet;           // persona que ejecuto el contrato
     }
-
+ 
     Data public data;
 
     event newData(string date, 
