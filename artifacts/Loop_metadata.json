@@ -7,15 +7,9 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "saludo",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
+				"name": "loop",
+				"outputs": [],
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -32,7 +26,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"hola_mundo.sol": "hola_mundo"
+			"loop.sol": "Loop"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -46,12 +40,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"hola_mundo.sol": {
-			"keccak256": "0x4f092eebd932035c5399524494bb4522d4bea868d085b4c111adfaa78e5013e6",
+		"loop.sol": {
+			"keccak256": "0x679672fc7b8f2a35189c55b5169f3f0b406912d4c9af976ae032e5e87d99b996",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0021b08625058461c47d7cdc74d83b595f87ea730d1069e9b87da50f16ce7cdc",
-				"dweb:/ipfs/QmcESL1kfDMJHqTd4hTHUdFq16xTjt8NpRg33C2SQnDvA7"
+				"bzz-raw://f6a24146992a6222d268dc461111dc2ddef51bebe2039ef6c394f6b19e57998b",
+				"dweb:/ipfs/QmazF6cqp7UZX5w5Rr7e4zUwiEZVjZdkEiGbygHFJYgtmC"
 			]
 		}
 	},

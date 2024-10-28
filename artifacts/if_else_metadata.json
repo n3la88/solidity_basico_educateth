@@ -8,9 +8,9 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_fullname",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "_edad_limit",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "nonpayable",
@@ -18,7 +18,33 @@
 			},
 			{
 				"inputs": [],
-				"name": "getName",
+				"name": "edad_limit",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_numero",
+						"type": "uint256"
+					}
+				],
+				"name": "establecernumero",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "mensaje",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -31,51 +57,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "int_8",
+				"name": "numero",
 				"outputs": [
 					{
-						"internalType": "int8",
+						"internalType": "uint256",
 						"name": "",
-						"type": "int8"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "my_address",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "uint_16",
-				"outputs": [
-					{
-						"internalType": "uint16",
-						"name": "",
-						"type": "uint16"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "uint_8",
-				"outputs": [
-					{
-						"internalType": "uint8",
-						"name": "",
-						"type": "uint8"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -95,7 +82,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"variables_nativas.sol": "variables_nativas"
+			"if_else.sol": "if_else"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -109,12 +96,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"variables_nativas.sol": {
-			"keccak256": "0x08b360db1f85c66dc6ca6903ebfc2d94c3a91721c0e4550e6fb3cb628a657be3",
+		"if_else.sol": {
+			"keccak256": "0x7d10c6db240616390d357666c4957f85668a547cc5525fb59fb136938f6333a2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9fd3da6e6665656817d594a7e703e0fdfcb496551e55ad5316242790b6d4e47d",
-				"dweb:/ipfs/QmZFeTmgvJTdRPdZ9nBH5cYy7QVbjZrBRdoPr3bPx3Yx8A"
+				"bzz-raw://e0440c6a2d3b9d6a2f45eb9c53fc2c672c75c2d46cb8b7c98d99d9af5a616122",
+				"dweb:/ipfs/QmWWCPWjgrttYqw5a1bcSWKNpjugVnzgswXXeiYoe1Jstq"
 			]
 		}
 	},
