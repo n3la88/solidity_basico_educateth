@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.24;
+pragma solidity ^0.8.24;
 
 contract array {
     
@@ -27,7 +27,7 @@ contract array {
         arr2.pop();
     }
 
-    // contar el numero de ele,entos que tiene el array
+    // contar el numero de elementos que tiene el array
     function getLength() public view returns (uint256) {
         return arr2.length;
     }

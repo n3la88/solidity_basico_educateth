@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.24+commit.e11b9ed9"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -79,7 +79,7 @@
 		"compilationTarget": {
 			"mapping.sol": "Mapping"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -92,11 +92,11 @@
 	},
 	"sources": {
 		"mapping.sol": {
-			"keccak256": "0x2a548f7cb99c184951ac29fa6632da5de21f157b914944abe3d6acf451555e7a",
+			"keccak256": "0x3750b52c2b7a48f533e3136d50937a5f1148bafd85468d4dffcae7db4d3afab7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3724523992249aeb3e8c4cf9f527216436745119bf9377c790eec2398ac229b1",
-				"dweb:/ipfs/QmS121Lq2J4ENj2Q9LVK6BkkdUoroUa3JEKU5ZaZLuFzJT"
+				"bzz-raw://d73e4d99a57c71450638e9af64a3c210aaf8f4282bca5852e63995bea7169892",
+				"dweb:/ipfs/QmTJMgDzdwApY2SkABcihPuqcnUL9LdUcoQRmv2VpXXY5T"
 			]
 		}
 	},
