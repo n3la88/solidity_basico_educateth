@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.24+commit.e11b9ed9"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -96,9 +96,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"ERC20_flattened.sol": "SafeCast"
+			"educateh_flattened.sol": "SafeCast"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -110,12 +110,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"ERC20_flattened.sol": {
-			"keccak256": "0x895a99ed8f364cb343c86a34b08de51e34931b072fafc1a5b71d5a4a325f48b8",
+		"educateh_flattened.sol": {
+			"keccak256": "0x430191e4b69ef0735d60270e37f9180c4739fc3c23833b4c2826138242c7417d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7b07da669db3bf2040992c556c66027e35cd7dab1b80071e342a93120d4d1f06",
-				"dweb:/ipfs/QmQaFfe7u3P3tSkus2tKup5drEJpft6RRqiJa5V2w11Pze"
+				"bzz-raw://9bd6945d94e2731859589ff9c1ac8d92a3947e7d6d454bfca753ca9490a21c80",
+				"dweb:/ipfs/QmU1XiwNrfaqGrF5FKVsfgfoT6G2jMRk2qmk29afW68ko7"
 			]
 		}
 	},

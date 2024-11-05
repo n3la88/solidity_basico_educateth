@@ -1,0 +1,46 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Library that provide common ERC-721 utility functions. See https://eips.ethereum.org/EIPS/eip-721[ERC-721]. _Available since v5.1._",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"educateh_flattened.sol": "ERC721Utils"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"educateh_flattened.sol": {
+			"keccak256": "0x430191e4b69ef0735d60270e37f9180c4739fc3c23833b4c2826138242c7417d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9bd6945d94e2731859589ff9c1ac8d92a3947e7d6d454bfca753ca9490a21c80",
+				"dweb:/ipfs/QmU1XiwNrfaqGrF5FKVsfgfoT6G2jMRk2qmk29afW68ko7"
+			]
+		}
+	},
+	"version": 1
+}
